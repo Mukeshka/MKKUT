@@ -122,7 +122,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \y \y \y)
+            sys.exit(" \n \n \n)
             #print(numbers)
   
 
