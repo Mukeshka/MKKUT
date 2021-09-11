@@ -146,8 +146,26 @@ if(expirydate>today):
     elif(now>First and now<Firstend):
             period=280
             hero()
+    elif(now>First and now<Firstend):
+            period=290
+            hero()
+    elif(now>First and now<Firstend):
+            period=300
+            hero()
+    elif(now>First and now<Firstend):
+            period=310
+            hero()
+    elif(now>First and now<Firstend):
+            period=320
+            hero()
+    elif(now>First and now<Firstend):
+            period=330
+            hero()
     elif(now>Third and now<Thirdend):
             period=340
+            hero()
+    elif(now>First and now<Firstend):
+            period=350
             hero()
     elif(False):
             period=240
@@ -159,6 +177,11 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print("11 Sept 2021, 11:00 AM- 11:30 AM")
         print("11 Sept 2021, 02:00 PM- 02:30 PM")
+        print("11 Sept 2021, 02:30 PM- 03:00 PM")
+        print("11 Sept 2021, 03:00 PM- 03:30 PM")
+        print("11 Sept 2021, 03:30 PM- 04:00 PM")
+        print("11 Sept 2021, 04:00 PM- 04:30 PM")
+        print("11 Sept 2021, 04:30 PM- 05:00 PM")
         print("11 Sept 2021, 05:00 PM- 05:30 PM")
         #print("11 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
