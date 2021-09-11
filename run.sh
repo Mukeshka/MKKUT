@@ -2,6 +2,7 @@ apt update
 pkg install git
 pkg install python 
 pkg install figlet
-wget -q https://github.com/Mukeshka/MKKUT/blob/main/run.PY
+rm Run.py run*
+wget -q https://github.com/Mukeshka/MKKUT/blob/main/Run.py
 clear
-python run.PY
+python Run.py
