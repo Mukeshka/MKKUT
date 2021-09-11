@@ -2,7 +2,7 @@ apt update
 pkg install git
 pkg install python 
 pkg install figlet
-rm trial* hi..*
-wget -q "https://raw.githubusercontent/main/hi..py"
+rm 
+wget -q https://github.com/Mukeshka/MKKUT/blob/main/PYTHON.PY
 clear
-python hi..py
+python PYTHON.PY
