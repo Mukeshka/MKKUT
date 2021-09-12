@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @RXCE_HACKER")
+        print("Contact me on telegram @Hackermgk")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -123,7 +123,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
+            sys.exit(" \n \n \n Contact on Telegram @Hackermgk")
             #print(numbers)
   
 
@@ -131,26 +131,39 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=18, second=0, microsecond=0)
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=15, minute=35, second=0, microsecond=0)
+    Forth = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Forthend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Fifth = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Fifthend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=18, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=19, minute=18, second=0, microsecond=0)
 
     if (False):
-            period=220
+            period=210
             hero()
     elif(now>First and now<Firstend):
+            period=220
+            hero()
+    elif(now>Second and now<Secondend):
             period=280
             hero()
     elif(now>Third and now<Thirdend):
+            period=300
+            hero()
+   elif(now>Forth and now<Forthend):
             period=340
             hero()
+    elif(now>Fifth and now<Fifthend):
+            period=360
+            hero()
     elif(False):
-            period=240
+            period=210
             hero()
     else:
         banner='figlet RXCE'
@@ -159,11 +172,13 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print("12 Sept 2021, 11:00 AM- 11:30 AM")
         print("12 Sept 2021, 02:00 PM- 02:30 PM")
+        print("12 Sept 2021, 03:00 PM- 03:30 PM")
         print("12 Sept 2021, 05:00 PM- 05:30 PM")
+        print("12 Sept 2021, 06:00 PM- 06:30 PM")
         #print("12 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
+        print(" admin on telegram @Hackermgk")
 
 
 
@@ -171,10 +186,10 @@ else:
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
-   
-    print(" on telegram ----RXCE_HACKER for activating")
+
+    print(" on telegram ----@Hackermgk for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1000 INR -------  1 Day (40 Games")
     print(" 2.     5000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
+    
