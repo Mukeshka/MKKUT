@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Mukeshka 
-Mukeshka
-/
-MKKUT
-Public
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-MKKUT/Vi.py /
-@Mukeshka
-Mukeshka Vi.py
-Latest commit 66ceac5 2 hours ago
- History
- 1 contributor
-180 lines (161 sloc)  5.51 KB
-  
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
