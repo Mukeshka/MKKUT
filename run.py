@@ -136,8 +136,6 @@ if(expirydate>today):
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=14, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=15, minute=35, second=0, microsecond=0)
-    Forth = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Forthend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Fifth = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Fifthend = now.replace(hour=18, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=18, minute=55, second=0, microsecond=0)
@@ -155,10 +153,7 @@ if(expirydate>today):
     elif(now>Third and now<Thirdend):
             period=300
             hero()
-   elif(now>Forth and now<Forthend):
-            period=340
-            hero()
-    elif(now>Fifth and now<Fifthend):
+   elif(now>Fifth and now<Fifthend):
             period=360
             hero()
     elif(False):
@@ -172,7 +167,6 @@ if(expirydate>today):
         print("12 Sept 2021, 11:00 AM- 11:30 AM")
         print("12 Sept 2021, 02:00 PM- 02:30 PM")
         print("12 Sept 2021, 03:00 PM- 03:30 PM")
-        print("12 Sept 2021, 05:00 PM- 05:30 PM")
         print("12 Sept 2021, 06:00 PM- 06:30 PM")
         #print("12 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
