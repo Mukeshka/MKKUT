@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @RXCE_HACKER")
+        print("Contact me on telegram @HACKMGK")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -123,7 +123,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
+            sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
             #print(numbers)
   
 
@@ -157,13 +157,13 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         #print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print("13 Sept 2021, 11:00 AM- 11:30 AM")
-        print("13 Sept 2021, 03:00 PM- 03:30 PM")
-        print("13 Sept 2021, 06:00 PM- 06:30 PM")
-        #print("13 Sept 2021, 08:00 PM- 08:30 PM")
+        print("14 Sept 2021, 11:00 AM- 11:30 AM")
+        print("14 Sept 2021, 03:00 PM- 03:30 PM")
+        print("14 Sept 2021, 06:00 PM- 06:30 PM")
+        #print("14 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
+        print(" admin on telegram @HACKMGK ")
 
 
 
@@ -172,7 +172,7 @@ else:
     system(banner)
     print("*---------*----------*-------------*----------*")
     
-    print(" on telegram ----RXCE_HACKER for activating")
+    print(" on telegram ----HACKMGK for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1000 INR -------  1 Day (40 Games")
     print(" 2.     5000 INR -------  7 Days(280 Games")
