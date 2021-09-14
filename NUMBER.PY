@@ -100,8 +100,7 @@ def hero():
                     print(newperiod+1," : 3")
                 else:
                     print(newperiod+1," : 2")
-                else:
-                    print(newperiod+1,": 8")
+              
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -115,9 +114,7 @@ def hero():
                     print(newperiod+1,": 7")
                 else:
                     print(newperiod+1,": 6")
-                else:
-                    print(newperiod+1,": 9")
-        
+                     
         i=i+1
         newperiod+=1
         numbers.append(current)
