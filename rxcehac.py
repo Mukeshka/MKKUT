@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=246
+            period=330
             hero()
     elif(now>First and now<Firstend):
             period=280
@@ -171,7 +171,7 @@ else:
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
-    print("Your hack has expired--- Please contact")
+    
     print(" on telegram ----@RXCE_HACKER for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1000 INR -------  7 Day (280 Games")
