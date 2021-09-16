@@ -70,7 +70,10 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE'
+     thisway=[2,6,8,11,12,15,16,18,19,20]
+    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
+    i=1
     while(y):
         clear()
         system(banner)
@@ -83,11 +86,16 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        last2=str(current)[-2:]
-        check=checkg(last2)
-        if(newperiod%2==0):
-            sum=getSum(current)+check
-            if(sum%2==0):
+        def getSum(n):
+            sum=0
+            for digit in str(n):
+                sum += int(digit)
+            return sum
+        if i in thisway:
+            m=getSum(current)
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
                 print(newperiod+1," : RED")
             else:
                 print(newperiod+1,"  : GREEN")
@@ -125,7 +133,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if(True):
-            period=310
+            period=280
             hero()
     elif(now>Second and now<Secondend):
             period=300
