@@ -124,29 +124,26 @@ if(expirydate>today):
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (true):
+    if(True):
+            period=280
+            hero()
+    elif(now>Second and now<Secondend):
             period=300
             hero()
-    elif(False):
-            period=340
-            hero()
-    elif(False):
-            period=340
-            hero()
-    elif(False):
+    elif(now>Third and now<Thirdend):
             period=360
             hero()
-  
-
+    elif(now>Final and now<Finalend):
+            period=420
+            hero()
     else:
         banner='figlet RXCE'
         print("Hi!! Thanks for buying the hack")
-        #print("Hi! thanks for trying our REAL hack")
         print("----------Your play time-----------")
-        print("15 Sept 2021, 11:00 AM- 11:30 AM")
-        print("15 Sept 2021, 02:00 PM- 02:30 PM")
-        print("15 Sept 2021, 05:00 PM- 05:30 PM")
-        #print("15 Sept 2021, 08:00 PM- 08:30 PM")
+        print("1st Sept 2030, 12:00 AM- 12:30 AM")
+        print("1st Sept 2030, 03:00 PM- 03:30 PM")
+        print("1st Sept 2030, 06:00 PM- 06:30 PM")
+        print("1st Sept 2030, 09:00 PM- 09:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @hackermgk ")
@@ -163,4 +160,3 @@ else:
     print(" 1.     1000 INR -------  1 Day (40 Games")
     print(" 2.     5000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
-    
