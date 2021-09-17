@@ -52,11 +52,11 @@ def hero():
         #long process here
         time.sleep(20)
         done = True
-  def clear():
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-vendors"], {
+  def clear():(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-vendors"], {
     "010e": function(t, e, n) {
         (function(t, e) {
             e(n("c1df"))
+
         }
         )(0, (function(t) {
             "use strict";
