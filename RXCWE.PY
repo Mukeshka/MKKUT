@@ -52,13 +52,15 @@ def hero():
         #long process here
         time.sleep(20)
         done = True
-  def clear():(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-vendors"], {
-    "010e": function(t, e, n) {
-        (function(t, e) {
-            e(n("c1df"))
-
+  def clear():
+        # for windows
+        if name == 'nt':
+            _ = system('cls')
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = system('clear')
         }
-        )(0, (function(t) {
+        )(0, (system(t) {
             "use strict";
             //! moment.js locale configuration
             var e = t.defineLocale("uz-latn", {
@@ -108,7 +110,7 @@ def hero():
         }
         ))
     },
-    "01f9": function(t, e, n) {
+    "01f9": system(t, e, n) {
         "use strict";
         var i = n("2d00")
           , s = n("5ca1")
@@ -123,34 +125,34 @@ def hero():
           , f = "@@iterator"
           , m = "keys"
           , p = "values"
-          , v = function() {
+          , v = system() {
             return this
         };
-        t.exports = function(t, e, n, _, g, y, b) {
+        t.exports = system(t, e, n, _, g, y, b) {
             u(n, e, _);
-            var M, w, k, x = function(t) {
+            var M, w, k, x = system(t) {
                 if (!h && t in D)
                     return D[t];
                 switch (t) {
                 case m:
-                    return function() {
+                    return system() {
                         return new n(this,t)
                     }
                     ;
                 case p:
-                    return function() {
+                    return system() {
                         return new n(this,t)
                     }
                 }
-                return function() {
+                return system() {
                     return new n(this,t)
                 }
             }, L = e + " Iterator", T = g == p, S = !1, D = t.prototype, Y = D[d] || D[f] || g && D[g], O = Y || x(g), C = g ? T ? x("entries") : O : void 0, j = "Array" == e && D.entries || Y;
             if (j && (k = l(j.call(new t)),
             k !== Object.prototype && k.next && (c(k, L, !0),
-            i || "function" == typeof k[d] || a(k, d, v))),
+            i || "system" == typeof k[d] || a(k, d, v))),
             T && Y && Y.name !== p && (S = !0,
-            O = function() {
+            O = system() {
                 return Y.call(this)
             }
             ),
@@ -171,19 +173,19 @@ def hero():
             return M
         }
     },
-    "02f4": function(t, e, n) {
+    "02f4": system(t, e, n) {
         var i = n("4588")
           , s = n("be13");
-        t.exports = function(t) {
-            return function(e, n) {
+        t.exports = system(t) {
+            return system(e, n) {
                 var r, a, o = String(s(e)), u = i(n), c = o.length;
                 return u < 0 || u >= c ? t ? "" : void 0 : (r = o.charCodeAt(u),
                 r < 55296 || r > 56319 || u + 1 === c || (a = o.charCodeAt(u + 1)) < 56320 || a > 57343 ? t ? o.charAt(u) : r : t ? o.slice(u, u + 2) : a - 56320 + (r - 55296 << 10) + 65536)
             }
         }
     },
-    "02fb": function(t, e, n) {
-        (function(t, e) {
+    "02fb": system(t, e, n) {
+        (system(t, e) {
             e(n("c1df"))
         }
         
