@@ -79,7 +79,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @smsn_knt")
+        print("Contact me on telegram @HACKMGK")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -112,7 +112,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
             #print(numbers)
   
 
@@ -130,7 +130,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=220
+            period=440
             hero()
     elif(now>First and now<Firstend):
             period=280
