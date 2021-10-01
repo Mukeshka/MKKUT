@@ -96,13 +96,13 @@ def hero():
         check=checkg(last2)
         if(newperiod%2==0):
             sum=getSum(current)+check
-            if(sum%2==0):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 print(newperiod+1," : RED")
             else:
                 print(newperiod+1,"  : GREEN")
         else:
             sum=getSum(current)+check+1
-            if(sum%2==0):
+           if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 print(newperiod+1,"   : RED")
             else:
                 print(newperiod+1,"   : GREN")
