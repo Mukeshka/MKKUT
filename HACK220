@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 11, 25)
+expirydate = datetime.date(2022, 01, 25)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE 5.o'
+    banner='figlet RXCE 7.o'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
@@ -158,7 +158,7 @@ if(expirydate>today):
             period=460
             hero()
     else:
-        banner='figlet Rxce 5.o '
+        banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         print(" 11:00 AM- 12:00 AM")
