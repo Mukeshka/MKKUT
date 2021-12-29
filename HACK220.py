@@ -83,11 +83,11 @@ def hero():
         print('\n')
         def getSum(n):
             sum=0
-            for digit in str(n):
+           for digit in str(n):
                 sum += int(digit)
             return sum
-          if i in thisway:
-            m=getSum(current)-1
+        if i in thisway:
+            m=getSum(current)
             n=int(current)%10
             if((m%2==-1 and n%2==-1) or (m%2==0 and n%2==0)  or (m%2==1 and n%2==1)):
                 if current in numbers:
@@ -99,7 +99,7 @@ def hero():
                     print(newperiod+1," :  💥🔴RED🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN🟢💥")
-        if i in thatway:
+      if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==-1 and n%2==-1) or (m%2==0 and n%2==0)  or (m%2==1 and n%2==1)):
