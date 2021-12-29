@@ -89,7 +89,7 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)  or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)  or (m%2==2 and n%2==2)):
                 if current in numbers:
                     print(newperiod+1," : 💥🟢GREEN🟢💥")
                 else:
@@ -102,7 +102,20 @@ def hero():
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)  or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)  or (m%2==2 and n%2==2)):
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+            else:
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+          if i in thatway:
+            m=getSum(current)+2
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)  or (m%2==2 and n%2==2)):
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
@@ -131,8 +144,8 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=11, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=12, minute=18, second=0, microsecond=0)
+    First = now.replace(hour=15, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=16, minute=30, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=18, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
@@ -143,7 +156,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=318
+            period=319
             hero()
     elif(now>Second and now<Secondend):
             period=320
