@@ -143,7 +143,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=240
+            period=318
             hero()
     elif(now>Second and now<Secondend):
             period=320
