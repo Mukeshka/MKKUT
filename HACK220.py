@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 12, 30 )
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2022, 1, 5)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
 
@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @HACKMGK")
+        print("Contact me on telegram @Ethical_expert007")
         print("Enter" ,newperiod,"Price :")
         current=input()
         current=int(current)
@@ -90,31 +90,29 @@ def hero():
             m=getSum(current)
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1) or (m%2==2 and n%2==2)):
-                if current in numbers:
+               if current in numbers:
+                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                else:
                     print(newperiod+1," : 💥🔴RED🔴💥")
+            else:
+                if current in numbers:
+                    print(newperiod+1," :  💥🔴RED🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN🟢💥")
-              else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🟢GREEN🟢💥")
-                else:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
              
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1) or (m%2==2 and n%2==2)):
-                if current in numbers:
+         if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
-
             else:
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
-          
         i=i+1
         newperiod+=1
         numbers.append(current)
