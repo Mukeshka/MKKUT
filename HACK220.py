@@ -96,9 +96,9 @@ def hero():
                     print(newperiod+1," : 💥🔴RED🔴💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🔴RED🔴💥")
+                    print(newperiod+1," :  💥🟢GREEN🟢💥")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                    print(newperiod+1," : 💥🔴RED🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -109,9 +109,9 @@ def hero():
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
-                else:
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -140,7 +140,7 @@ if(expirydate>today):
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond= 0)
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
-    FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
+    FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
             period=220
