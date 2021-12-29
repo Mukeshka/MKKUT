@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Hackmgk")
+        print("Contact me on telegram @Ethical_expert007")
         print("Enter" ,newperiod,"Price :")
         current=input()
         current=int(current)
@@ -83,7 +83,7 @@ def hero():
         print('\n')
         def getSum(n):
             sum=0
-           for digit in str(n):
+            for digit in str(n):
                 sum += int(digit)
             return sum
         if i in thisway:
