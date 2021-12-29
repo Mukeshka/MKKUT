@@ -144,7 +144,7 @@ if(expirydate>today):
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
     FFinalend = now.replace(hour=23, minute=59, second=0, microsecond= 0)
 
-   elif(now>First and now<Firstend):
+    if (now>First and now<Firstend):
             period=300
             hero()
     elif(now>Second and now<Secondend):
