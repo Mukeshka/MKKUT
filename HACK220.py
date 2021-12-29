@@ -99,15 +99,11 @@ def hero():
                     print(newperiod+1," :  💥🟢GREEN🟢💥")
                 else:
                     print(newperiod+1," : 💥🔴RED🔴💥")
-           else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🟢VIOLET🟢💥")
-                else:
-                    print(newperiod+1," : 💥🔴VIOLET🔴💥")
+         
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1) or (m%2==1 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
