@@ -91,20 +91,21 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1) or (m%2==2 and n%2==2)):
                if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
-                else:
+                 if current in numbers:
                     print(newperiod+1," : 💥🔴RED🔴💥")
+                else:
+                    print(newperiod+1," : 💥🟢GREEN🟢💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🔴RED🔴💥")
+                    print(newperiod+1," :  💥🟢GREEN🟢💥")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
-             
+                    print(newperiod+1," : 💥🔴RED🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1) or (m%2==2 and n%2==2)):
          if current in numbers:
+                if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
@@ -144,7 +145,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=59, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=311
+            period=315
             hero()
     elif(now>Second and now<Secondend):
             period=280
