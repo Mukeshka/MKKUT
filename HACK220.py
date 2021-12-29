@@ -61,7 +61,7 @@ def hero():
         else:
             _ = system('clear')
 
-   clear()
+    clear()
     y=1
     newperiod=period
     banner='figlet RXCE 7.o'
@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Ethical_expert007")
+        print("Contact me on telegram @Hackmgk")
         print("Enter" ,newperiod,"Price :")
         current=input()
         current=int(current)
@@ -123,15 +123,16 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @Hackmgk")
             print(numbers)
   
 
 
+
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=16, minute=30, second=0, microsecond=0)
+    First = now.replace(hour=11, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=12, minute=18, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=18, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
@@ -142,7 +143,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=319
+            period=240
             hero()
     elif(now>Second and now<Secondend):
             period=320
@@ -167,7 +168,7 @@ if(expirydate>today):
         print(" 11:00 PM- 12:15 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @hackmgk ")
+        print(" admin on telegram @Hackmgk ")
 else:
     banner='figlet Thank '
     system(banner)
@@ -178,4 +179,4 @@ else:
     print(" 2.     3000 INR -------  30 Days")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-    print( "Msg me on telegram @ethical_expert007")
+    print( "Msg me on telegram @hackmgk")
