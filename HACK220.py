@@ -91,34 +91,34 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🟢GREEN🟢💥")
+                    print(newperiod+1," :  💥🔴RED1🔴💥")
                 else:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : 💥🟢GREEN3🟢💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": 💥💥🔴RED1🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN1🟢💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>4):
+        if (len(numbers)>15):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
