@@ -118,7 +118,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>4):
+        if (len(numbers)>12):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
@@ -131,8 +131,8 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=11, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=12, minute=18, second=0, microsecond=0)
+    First = now.replace(hour=09, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=18, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
@@ -143,7 +143,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=240
+            period=200
             hero()
     elif(now>Second and now<Secondend):
             period=320
@@ -161,7 +161,7 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for watching our video")
         print("----------Your play time-----------")
-        print(" 12:00 PM- 12:15 PM")
+        print(" 10:00 PM- 10:35 PM")
         print(" 04:00 PM- 04:15 PM")
         print(" 07:00 PM- 07:15 PM")
         print(" 09:00 PM- 09:15 PM")
