@@ -106,10 +106,10 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED1🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN1🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN1🟢💥💥")
                 else:
                     print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
         i=i+1
@@ -138,7 +138,7 @@ if(expirydate>today):
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=19, minute=18, second=0, microsecond=0)
     Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=21, minute=18, second=0, microsecond= 0)
+    Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
@@ -164,7 +164,7 @@ if(expirydate>today):
         print(" 10:00 PM- 10:35 PM")
         print(" 04:00 PM- 04:15 PM")
         print(" 07:00 PM- 07:15 PM")
-        print(" 09:00 PM- 09:15 PM")
+        print(" 09:00 PM- 09:35 PM")
         print(" 11:00 PM- 11:15 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
