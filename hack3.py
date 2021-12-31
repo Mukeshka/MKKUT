@@ -62,7 +62,7 @@ def hero():
             _ = system('clear')
 
     clear()
-    y=2
+    y=1
     newperiod=period
     banner='figlet RXCE 7.o'
     thisway=[2,6,8,11,12,15,16,18,19,20]
@@ -86,50 +86,37 @@ def hero():
             for digit in str(n):
                 sum += int(digit)
             return sum
-          if i in thisway:
-            m=getSum(current)-1
-            n=int(current)%10
-            if((m%2==-1 and n%2==-1) or (m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
-                else:
-                    print(newperiod+1," : 💥🔴RED1🔴💥")
-            else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🔴RED2🔴💥")
-                else:
-                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==-1 and n%2==-1) or (m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 💥💥🟢GREEN3🟢💥💥")
+                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
-                    print(newperiod+1," : 💥💥🟢GREEN4🟢💥💥")
+                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥💥🔴RED3🔴💥💥")
+                    print(newperiod+1," :  💥🔴RED1🔴💥")
                 else:
-                    print(newperiod+1," : 💥💥🟢GREEN5🟢💥💥")
+                    print(newperiod+1," : 💥🟢GREEN3🟢💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==-1 and n%2==-1) or (m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥💥🔴RED4🔴💥💥💥")
+                    print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥💥🔴RED5🔴💥💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥💥🟢GREEN6🟢💥💥💥")
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥💥🔴RED6🔴💥💥💥")
+                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==1):
+        if(y==0):
             y=False
         if (len(numbers)>15):
             clear()
@@ -144,8 +131,8 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=20, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=23, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
@@ -156,7 +143,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=220
+            period=420
             hero()
     elif(now>Second and now<Secondend):
             period=280
@@ -174,7 +161,7 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
-        print(" 11:00 PM- 11:35 PM")
+        print(" 09:00 PM- 11:35 PM")
         print(" 02:00 PM- 02:35 PM")
         print(" 05:00 PM- 05:35 PM")
         print(" 08:00 PM- 08:35 PM")
