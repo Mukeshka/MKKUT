@@ -106,12 +106,12 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
