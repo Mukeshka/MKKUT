@@ -62,7 +62,7 @@ def hero():
             _ = system('clear')
 
     clear()
-    y=1
+    y=2
     newperiod=period
     banner='figlet RXCE 7.o'
     thisway=[1,3,,4,6,7,9,11,12,14,16,17)
@@ -130,7 +130,7 @@ def hero():
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
+        if(y==1):
             y=False
         if (len(numbers)>15):
             clear()
