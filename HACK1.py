@@ -104,14 +104,14 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED1🔴💥💥")
+                    print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
                 else:
                     print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN1🟢💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED3🔴💥💥")
+                    print(newperiod+1,": 💥💥�🟢GREEN5🟢💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
