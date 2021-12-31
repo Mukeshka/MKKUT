@@ -118,7 +118,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>12):
+        if (len(numbers)>20):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
@@ -134,7 +134,7 @@ if(expirydate>today):
     First = now.replace(hour=9, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=14, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=15, minute=35, second=0, microsecond=0)
+    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=19, minute=18, second=0, microsecond=0)
     Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
@@ -146,7 +146,7 @@ if(expirydate>today):
             period=200
             hero()
     elif(now>Second and now<Secondend):
-            period=300
+            period=315
             hero()
     elif(now>Third and now<Thirdend):
             period=380
@@ -162,7 +162,7 @@ if(expirydate>today):
         print("Hi!! Thanks for watching our video")
         print("----------Your play time-----------")
         print(" 10:00 PM- 10:35 PM")
-        print(" 03:00 PM- 03:35 PM")
+        print(" 03:00 PM- 04:35 PM")
         print(" 07:00 PM- 07:15 PM")
         print(" 09:00 PM- 09:35 PM")
         print(" 11:00 PM- 11:15 PM")
