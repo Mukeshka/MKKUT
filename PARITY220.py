@@ -103,15 +103,15 @@ def hero():
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
+                 if current in numbers:
+                    print(newperiod+1,": 💥💥🔴RED6🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN7🟢💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED8🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN3🟢💥💥")     
+                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")     
         i=i+1
         newperiod+=1
         numbers.append(current)
