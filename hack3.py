@@ -10,7 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022, 5, 5)
+
+expirydate = datetime.date(2022, 1, 5)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -22,7 +23,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -60,71 +61,64 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
+    def getSum(n):
+        sum=0
+        for digit in str(n):
+            sum+= int(digit)
+        return sum+1
 
+    def lawde_time_pe_khel(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
     clear()
     y=1
+    clear()
     newperiod=period
     banner='figlet RXCE 7.o'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
-    i=1
     while(y):
         clear()
+        banner='figlet RXCE 7.o'
         system(banner)
-        print("Contact me on telegram @Hackmgk")
-        print("Enter" ,newperiod,"Price :")
+        print("Contact me on telegram @IDFCMONEY")
+        print("Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully Connected to the server-----------")
+        print("\n---------Successfully hacked the server-----------")
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        def getSum(n):
-            sum=0
-            for digit in str(n):
-                sum += int(digit)
-            return sum
-        if i in thisway:
-            m=getSum(current)
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
-                else:
-                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
+        last2=str(current)[-2:]
+        samjha_maadarchod=lawde_time_pe_khel(last2)
+        if(newperiod%2==0):
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1," : 💥💥💥 🟢 GREEN 🟢 💥💥💥")
             else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🔴RED1🔴💥")
-                else:
-                    print(newperiod+1," : 💥🟢GREEN3🟢💥")
-        if i in thatway:
-            m=getSum(current)+1
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
+                print(newperiod+1,"  : 💥💥💥  🔴 RED 🔴 💥💥💥")
+        else:
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1,"   : 💥💥💥 🟢 GREEN 🟢 💥💥💥")
             else:
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
-        i=i+1
+                print(newperiod+1,"   : 💥💥💥  🔴 RED 🔴 💥💥💥")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>15):
+        if (len(numbers)>11):
             clear()
-            system('figlet Thank you!!')
+            system('figlet Thank You!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
             print(numbers)
+  
   
 
 
