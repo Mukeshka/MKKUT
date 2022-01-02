@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022,  2, 25 )
+expirydate = datetime.date(2022,  1, 12 )
 #expirydate = datetime.date(2021, 12, 30)
 today=date.today()
 def hero():
@@ -90,15 +90,15 @@ def hero():
             m=getSum(current)
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
+                 if current in numbers:
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
                     print(newperiod+1," : 💥🔴RED1🔴💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🔴RED2🔴💥")
+                    print(newperiod+1," :  💥🟢GREEN3🟢💥")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
+                    print(newperiod+1," : 💥🔴RED2🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
