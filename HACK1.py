@@ -15,14 +15,14 @@ expirydate = datetime.date(2022,  2, 25 )
 today=date.today()
 def hero():
 
-    def chalo():
+  def chalo():
         done = False
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the  server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -64,9 +64,9 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE 7.o'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
+    banner='figlet AMUSEBOX'
+    thisway=[0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50]
+    thatway=[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49]
     numbers=[]
     i=1
     while(y):
@@ -93,10 +93,10 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN2🟢💥")
+                    print(newperiod+1," : 💥🔴RED1🔴💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🔴RED1🔴💥")
+                    print(newperiod+1," :  💥🔴RED2🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN3🟢💥")
         if i in thatway:
@@ -106,12 +106,12 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": 💥💥🔴RED2🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN5🟢💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
+                    print(newperiod+1,": 💥💥🔴RED6🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -131,8 +131,8 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=9, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=11, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=12, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=14, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
@@ -143,7 +143,7 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=18, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=200
+            period=240
             hero()
     elif(now>Second and now<Secondend):
             period=315
@@ -161,7 +161,7 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for watching our video")
         print("----------Your play time-----------")
-        print(" 10:00 PM- 10:35 PM")
+        print(" 12:00 PM- 12:35 PM")
         print(" 03:00 PM- 04:35 PM")
         print(" 07:00 PM- 07:15 PM")
         print(" 09:00 PM- 09:35 PM")
