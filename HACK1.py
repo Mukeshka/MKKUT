@@ -15,14 +15,15 @@ expirydate = datetime.date(2022,  2, 25 )
 today=date.today()
 def hero():
 
-  def chalo():
+ 
+    def chalo():
         done = False
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the  server for next colour--------- ' + c)
+                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
