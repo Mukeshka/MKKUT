@@ -10,8 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-
-expirydate = datetime.date(2022, 1, 5)
+expirydate = datetime.date(2022, 1, 29)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -23,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -32,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(10)
         done = True
 
     def chalo1():
@@ -61,51 +60,59 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    def getSum(n):
-        sum=0
-        for digit in str(n):
-            sum+= int(digit)
-        return sum+1
 
-    def lawde_time_pe_khel(n):
-        check=0
-        for digit in (n):
-            if(int(digit)==0):
-                check=check+1
-        return check
     clear()
     y=1
-    clear()
     newperiod=period
-    banner='figlet RXCE 7.o'
-    numbers=[]
+    banner='figlet RXCE V 7.0'
+    thisway=[0,2,4,6,8,10,12,14,16,18,20]
+    thatway=[1,3,5,7,9,11,13,15,19,]
+    numbers=[12345678910111213141517181920]
+    i=1
     while(y):
         clear()
-        banner='figlet RXCE 7.o'
         system(banner)
-        print("Contact me on telegram @IDFCMONEY")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Contact me on telegram @Hackmgk")
+        print("Enter ",newperiod," Emerd Price :")
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully hacked the server-----------")
+        print("\n---------Successfully Connected to the server-----------")
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        last2=str(current)[-2:]
-        samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==0):
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1," : 💥💥💥 🟢 GREEN 🟢 💥💥💥")
+        def getSum(n):
+            sum=0
+            for digit in str(n):
+                sum += int(digit)
+            return sum
+        if i in thisway:
+            m=getSum(current)
+            n=int(current)%10
+            if((m+1==0 and n+1==0) or (m+1==1 and n+1==1)):
+                if current in numbers:
+                    print(newperiod+1," : 💥🔴RED🔴💥")
+                else:
+                    print(newperiod+1," : 💥🟢GREEN🟢💥")
             else:
-                print(newperiod+1,"  : 💥💥💥  🔴 RED 🔴 💥💥💥")
-        else:
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1,"   : 💥💥💥 🟢 GREEN 🟢 💥💥💥")
+                if current in numbers:
+                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                else:
+                    print(newperiod+1," : 💥🔴RED🔴💥")
+        if i in thatway:
+            m=getSum(current)+1
+            n=int(current)%10
+            if((m+1==0 and n+1==0) or (m+1==1 and n+1==1)):
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
             else:
-                print(newperiod+1,"   : 💥💥💥  🔴 RED 🔴 💥💥💥")
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+        i=i-1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -113,22 +120,20 @@ def hero():
             y=False
         if (len(numbers)>11):
             clear()
-            system('figlet Thank You!!')
+            system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
+            sys.exit(" \n \n \n Contact on Telegram @Hackmgk")
             print(numbers)
-  
-  
 
 
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=20, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=23, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=09, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=11, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=12, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
@@ -137,10 +142,10 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=420
+            period=200
             hero()
     elif(now>Second and now<Secondend):
-            period=280
+            period=240
             hero()
     elif(now>Third and now<Thirdend):
             period=340
@@ -155,8 +160,8 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
-        print(" 09:00 PM- 11:35 PM")
-        print(" 02:00 PM- 02:35 PM")
+        print(" 10:00 PM- 10:35 PM")
+        print(" 12:00 PM- 12:35 PM")
         print(" 05:00 PM- 05:35 PM")
         print(" 08:00 PM- 08:35 PM")
         print(" 11:00 PM- 12:35 PM")
