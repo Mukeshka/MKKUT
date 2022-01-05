@@ -130,8 +130,8 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=20, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=21, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
@@ -142,8 +142,8 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=220
-            hero()
+            period=
+            hero()420
     elif(now>Second and now<Secondend):
             period=280
             hero()
@@ -160,7 +160,7 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
-        print(" 11:00 PM- 11:35 PM")
+        print(" 09:00 PM- 09:35 PM")
         print(" 02:00 PM- 02:35 PM")
         print(" 05:00 PM- 05:35 PM")
         print(" 08:00 PM- 08:35 PM")
