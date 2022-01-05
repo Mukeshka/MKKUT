@@ -131,25 +131,25 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=9, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=11, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=12, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=15, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond= 0)
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
     FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=220
+            period=200
             hero()
     elif(now>Second and now<Secondend):
-            period=280
+            period=240
             hero()
     elif(now>Third and now<Thirdend):
-            period=340
+            period=300
             hero()
     elif(now>Final and now<Finalend):
             period=400
@@ -161,9 +161,9 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
-        print(" 11:00 PM- 11:35 PM")
-        print(" 02:00 PM- 02:35 PM")
-        print(" 05:00 PM- 05:35 PM")
+        print(" 10:00 PM- 10:35 PM")
+        print(" 12:00 PM- 12:35 PM")
+        print(" 03:00 PM- 03:35 PM")
         print(" 08:00 PM- 08:35 PM")
         print(" 11:00 PM- 12:35 PM")
         print("Please play on the given time, and ")
