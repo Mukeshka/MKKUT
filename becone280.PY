@@ -128,10 +128,9 @@ def hero():
   
 
 
-
 if(expirydate>today):
-     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=00, second=0, microsecond=0)
+    now = datetime.datetime.now()
+    First = now.replace(hour=9, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=11, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=12, minute=35, second=0, microsecond=0)
@@ -163,7 +162,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print(" 10:00 PM- 10:35 PM")
         print(" 12:00 PM- 12:35 PM")
-        print(" 03:00 PM- 02:35 PM")
+        print(" 03:00 PM- 03:35 PM")
         print(" 08:00 PM- 08:35 PM")
         print(" 11:00 PM- 12:35 PM")
         print("Please play on the given time, and ")
