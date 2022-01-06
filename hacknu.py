@@ -67,7 +67,7 @@ def hero():
     banner='figlet RXCE V 7.0'
     thisway=[0,2,4,6,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,19]
-    numbers=[1,3,5,7,9,11,13,15,19]
+    ifway=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
     i=1
     while(y):
         clear()
@@ -113,18 +113,18 @@ def hero():
                 else:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
         if i in numbers:
-            m=getSum(current)+1
+            m=getSum(current)+2
             n=int(current)%10
             if((m+1==0 and n+1==0) or (m+1==1 and n+1==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥135💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
                 else:
-                    print(newperiod+1,": 💥💥246💥💥")
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥79💥💥")
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥80💥💥")
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
         i=i-1
         newperiod+=1
         numbers.append(current)
@@ -147,8 +147,8 @@ if(expirydate>today):
     Firstend = now.replace(hour=10, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=11, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=12, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=15, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond= 0)
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
@@ -161,7 +161,7 @@ if(expirydate>today):
             period=240
             hero()
     elif(now>Third and now<Thirdend):
-            period=340
+            period=300
             hero()
     elif(now>Final and now<Finalend):
             period=400
@@ -175,7 +175,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print(" 10:00 PM- 10:35 PM")
         print(" 12:00 PM- 12:35 PM")
-        print(" 05:00 PM- 05:35 PM")
+        print(" 03:00 PM- 03:35 PM")
         print(" 08:00 PM- 08:35 PM")
         print(" 11:00 PM- 12:35 PM")
         print("Please play on the given time, and ")
