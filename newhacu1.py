@@ -15,14 +15,15 @@ expirydate = datetime.date(2022,  1, 13 )
 today=date.today()
 def hero():
 
-   def chalo():
+  
+    def chalo():
         done = False
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the  server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -64,8 +65,7 @@ def hero():
         sum=0
         for digit in str(n):
             sum+= int(digit)
-        return sum+1
-
+        return sum
     def lawde_time_pe_khel(n):
         check=0
         for digit in (n):
@@ -75,20 +75,17 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet Rxce 7.o '
-    thisway=[0,2,4,6,8,10,12,14,16,18,20]
-    thatway=[1,3,5,7,9,11,13,15,17,19]
+    banner='figlet RXCE'
     numbers=[]
-    i=1
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Hackmgk")
-        print("Enter" ,newperiod,"Price :")
+        print("Contact me on telegram @RXCE_HACKER")
+        print("Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully Connected to the server-----------")
+        print("\n---------Successfully hacked the server-----------")
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
