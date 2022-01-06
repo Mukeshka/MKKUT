@@ -113,7 +113,7 @@ def hero():
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
                 else:
                     print(newperiod+1,": 💥💥🔴RED🔴💥💥")
-         if i in thisway:
+         if i in numbers:
             m=getSum(current)
             n=int(current)%10
             if((m+1==0 and n+1==0) or (m+1==1 and n+1==1)):
