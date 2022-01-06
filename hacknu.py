@@ -117,9 +117,9 @@ def hero():
             n=int(current)%10
             if((m+1==0 and n+1==0) or (m+1==1 and n+1==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥5💥💥")
+                    print(newperiod+1,": 💥💥135💥💥")
                 else:
-                    print(newperiod+1,": 💥💥6💥💥")
+                    print(newperiod+1,": 💥💥246💥💥")
             else:
                 if current in numbers:
                     print(newperiod+1,": 💥💥79💥💥")
