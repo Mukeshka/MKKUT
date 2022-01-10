@@ -1,14 +1,15 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
-
-from os import system, name
-import itertools
-import threading
-import time
-import sys
-import datetime
-from base64 import b64decode,b64encode
-from datetime import date
+import streamlit as st
+import numpy as np
+from sklearn import preprocessing
+import pandas as pd
+#from sklearn.cluster import KMeans
+#from sklearn.preprocessing import StandardScaler
+from sklearn import svm
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+import sklearn
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.linear_model import LogisticRegression
 
 expirydate = datetime.date(2022, 1, 29)
 #expirydate = datetime.date(2021, 8, 30)
