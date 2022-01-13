@@ -79,18 +79,13 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        def getSum(n):
-            sum=1
-            for digit in str(n):
-                sum += int(digit)
-            return sum
-        if i in thisway:
-           with st.spinner('In Progress....'):
-				d=pd.read_excel("rd3.xlsx")
+                  with st.spinner('In Progress....'):
+				d=pd.read_excel("1234.xlsx")
 				#clf = svm.SVC(kernel="")
 				#clf = DecisionTreeClassifier(random_state=0)
-				X=d[['A','B']]
-				y=d['Y']
+				PRICE=getSum(current)
+				X=d[['A'+PRICE+'B']]
+				y=d['D']
 				X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.001)
 				#st.write("The shape is ",d.shape)
 				clf = LogisticRegression(random_state=0).fit(X, y)
