@@ -15,7 +15,6 @@ expirydate = datetime.date(2022,  1, 13 )
 today=date.today()
 def hero():
 
-  
     def chalo():
         done = False
         #here is the animation
@@ -23,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the  server for next colour--------- ' + c)
+                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -61,65 +60,49 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    def getSum(n):
-        sum=0
-        for digit in str(n):
-            sum+= int(digit)
-        return sum
-    def lawde_time_pe_khel(n):
-        check=0
-        for digit in (n):
-            if(int(digit)==0):
-                check=check+1
-        return check
+
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE'
-    numbers=[]
+    banner='figlet Rxce 7.o '
+   numbers=[]
+    i=1
     while(y):
         clear()
         system(banner)
         print("Contact me on telegram @Hackmgk")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter" ,newperiod,"Price :")
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully hacked the server-----------")
+        print("\n---------Successfully Connected to the server-----------")
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
         def getSum(n):
-            sum=0
+            sum=1
             for digit in str(n):
                 sum += int(digit)
             return sum
         if i in thisway:
-            m=getSum(current)
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
-                else:
-                    print(newperiod+1," : 💥🔴RED2🔴💥")
-            else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🔴RED3🔴💥")
-                else:
-                    print(newperiod+1," : 💥🟢GREEN4🟢💥")
-        if i in thatway:
-            m=getSum(current)+1
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED5🔴💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🟢GREEN6🟢💥💥")
-            else:
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN6🟢💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🔴RED7🔴💥💥")
+           with st.spinner('In Progress....'):
+				d=pd.read_excel("rd3.xlsx")
+				#clf = svm.SVC(kernel="")
+				#clf = DecisionTreeClassifier(random_state=0)
+				X=d[['A','B']]
+				y=d['Y']
+				X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.001)
+				#st.write("The shape is ",d.shape)
+				clf = LogisticRegression(random_state=0).fit(X, y)
+				#st.write("You selected ",s_type)
+				p=clf.predict([[a,b]])
+				if p%2==0:
+					#r=r+1
+					st.success("Next is GREEN")
+				elif p%2==1:
+					#g=g+1
+					st.error("Next is RED")
+          
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -136,27 +119,29 @@ def hero():
   
 
 
+
+
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=11, minute=30, second=0, microsecond=0)
-    Firstend = now.replace(hour=12, minute=0, second=0, microsecond=0)
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
     FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
     FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=230
+            period=220
             hero()
     elif(now>Second and now<Secondend):
             period=280
             hero()
     elif(now>Third and now<Thirdend):
-            period=320
+            period=340
             hero()
     elif(now>Final and now<Finalend):
             period=420
@@ -168,9 +153,9 @@ if(expirydate>today):
         banner='figlet Rxce 7.o '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
-        print(" 11:30 PM- 12:00 PM")
+        print(" 11:00 PM- 11:35 PM")
         print(" 02:00 PM- 02:35 PM")
-        print(" 04:00 PM- 04:35 PM")
+        print(" 05:00 PM- 05:35 PM")
         print(" 09:00 PM- 09:35 PM")
         print(" 11:00 PM- 12:35 PM")
         print("Please play on the given time, and ")
