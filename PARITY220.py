@@ -79,8 +79,8 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Hackmgk")
-        print("Enter" ,newperiod,"Price :")
+        print(f"{red}Contact me on telegram @hackmgk")
+        print(f"{yellow}Enter ",newperiod," Price :")
         current=input()
         current=int(current)
         chalo()
@@ -166,7 +166,7 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE8.1|lolcat'
-        print("Hi!! Thanks for buying Life time the hack")
+        print(f"{red}"Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
         print(" 11:00 PM- 11:35 PM")
         print(" 02:00 PM- 02:35 PM")
