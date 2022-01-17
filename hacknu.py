@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2021, 9, 24)
+expirydate = datetime.date(2022, 1, 24)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
@@ -220,8 +220,8 @@ else:
         if(bhai==code or bhai==test):
             clear()
             print(f"{purple}---------------Your play time----------------")
-            print("02:30 PM- 03:00 PM")
-            print("05:30 PM- 06:00 PM")
+            print("02:00 PM- 02:30 PM")
+            print("05:00 PM- 05:00 PM")
             print("08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
