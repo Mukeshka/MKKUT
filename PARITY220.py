@@ -13,6 +13,14 @@ from datetime import date
 expirydate = datetime.date(2022,  1, 19 )
 #expirydate = datetime.date(2021, 12, 30)
 today=date.today()
+today=date.today()
+green="\033[3;32m"
+neon="\033[3;36m"
+nc="\033[00m"
+red="\033[3;31m"
+purple="\033[3;34m"
+yellow="\033[3;33m"
+voilet="\033[3;35m"
 def hero():
 
     def chalo():
