@@ -177,21 +177,7 @@ if(expirydate>today):
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Hackmgk ")
-        
-        else:
-    def clear():
-        # for windows
-        if name == 'nt':
-            _ = system('cls')
-        # for mac and linux(here, os.name is 'posix')
-        else:
-            _ = system('clear')
-    code="BART983"
-    test="PBHGY32"
-    night="NICMJY13"
-    nextday="NNMKJHFD"
-    banner='figlet RXCEV2.1|lolcat'
-     rava=0
+    
 else:
     banner='figlet Thank '
     system(banner)
