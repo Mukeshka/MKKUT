@@ -166,7 +166,7 @@ if(expirydate>today):
             period=460
             hero()
     else:
-        banner='figlet Rxce 7.o '
+        banner='figlet RXCE8.1|lolcat'
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
         print(" 11:00 PM- 11:35 PM")
@@ -177,6 +177,21 @@ if(expirydate>today):
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Hackmgk ")
+        
+        else:
+    def clear():
+        # for windows
+        if name == 'nt':
+            _ = system('cls')
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = system('clear')
+    code="BART983"
+    test="PBHGY32"
+    night="NICMJY13"
+    nextday="NNMKJHFD"
+    banner='figlet RXCEV2.1|lolcat'
+     rava=0
 else:
     banner='figlet Thank '
     system(banner)
