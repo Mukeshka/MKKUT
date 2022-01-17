@@ -13,7 +13,6 @@ from datetime import date
 expirydate = datetime.date(2022,  1, 19 )
 #expirydate = datetime.date(2021, 12, 30)
 today=date.today()
-today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
 nc="\033[00m"
@@ -72,7 +71,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE 7.o'
+    banner='figlet RXCE8.1|lolcat'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
