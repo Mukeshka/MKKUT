@@ -90,16 +90,12 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-       def getSum(n):
-            sum=0
-            for digit in str(n):
-                sum += int(digit)
-            return sum
-        if i in thisway:
-            m=getSum(current)
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
+       last2=str(current)[-2:]
+        #samjha_maadarchod=lawde_time_pe_khel(last2)
+        if(newperiod%2==0):
+            sum=getSum(current)
+            if(sum%2==0):
+                 if current in numbers:  
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
                     print(newperiod+1," : 💥🔴RED2🔴💥")
@@ -108,10 +104,8 @@ def hero():
                     print(newperiod+1," :  💥🔴RED2🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
-        if i in thatway:
-            m=getSum(current)+1
-            n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+       sum=getSum(current)
+            if(sum%2==0):
                 if current in numbers:
                     print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
                 else:
