@@ -72,7 +72,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE 7.o'
+    banner='figlet RXCE8.1|lolcat'
     thisway=[0,2,4,6,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
@@ -168,7 +168,7 @@ if(expirydate>today):
             period=460
             hero()
     else:
-        banner='figlet Rxce 7.o '
+        banner='figlet RXCE8.1|lolcat '
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
         print(" 11:00 PM- 11:35 PM")
