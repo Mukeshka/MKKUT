@@ -90,32 +90,21 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-       last2=str(current)[-2:]
+     
+        last2=str(current)[-2:]
         #samjha_maadarchod=lawde_time_pe_khel(last2)
         if(newperiod%2==0):
             sum=getSum(current)
             if(sum%2==0):
-                 if current in numbers:  
-                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
-                else:
-                    print(newperiod+1," : 💥🔴RED2🔴💥")
+                print(newperiod+1," : 🔴, RED")
             else:
-                if current in numbers:
-                    print(newperiod+1," :  💥🔴RED2🔴💥")
-                else:
-                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
-       sum=getSum(current)
+                print(newperiod+1,"  : 🟢, GREEN")
+        else:
+            sum=getSum(current)
             if(sum%2==0):
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🔴RED6🔴💥💥")
+                print(newperiod+1,"   : 🔴, RED")
             else:
-                if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
-                else:
-                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
-        i=i+1
+                print(newperiod+1,"   : 🟢, GREEN")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
