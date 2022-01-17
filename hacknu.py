@@ -30,7 +30,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -81,8 +81,8 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print(f"{red}Contact me on telegram @smsn_knt")
-        print(f"{yellow}Enter ",newperiod," Bcone Price :")
+        print(f"{red}Contact me on telegram @hakmgk")
+        print(f"{yellow}Enter ",newperiod," Price :")
         current=input()
         current=int(current)
         chalo()
@@ -114,34 +114,38 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
             #print(numbers)
   
 
 
 
 if(expirydate>today):
-    now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
-    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
+    FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
+    FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
-    if (now>Third and now<Thirdend):
-            period=320
+    if (now>First and now<Firstend):
+            period=220
             hero()
-    elif(now):
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
             period=340
             hero()
-    elif(False):
-            period=340
+    elif(now>Final and now<Finalend):
+            period=420
             hero()
-    elif(False):
-            period=360
+    elif(now>FFinal and now<FFinalend):
+            period=460
             hero()
     else:
         banner='figlet RXCEV2.1'
@@ -149,13 +153,13 @@ if(expirydate>today):
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("23rd Sept 2021, 04:00 PM- 04:30 PM")
-        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        print(" 11:00 AM- 11:30 AM")
+        print(" 02:00 PM- 02:30 PM")
+        print(" 05:00 PM- 05:30 PM")
+        print(" 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @smsn_knt ")
+        print(" admin on telegram @hackmgk ")
 
 
 
@@ -190,38 +194,38 @@ else:
     system(banner)
     print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@smsn_knt for activating")
+    print(" on telegram ----@hackmgk for activating")
     print("     Plan Amount --    Total limit " )
-    print(" 1.  1000 INR -------  1 Day (30 Games")
-    print(" 2.  2500 INR -------  3 Days(90 Games")
-    print(" 2.  5000 INR ------- 7 Days(210 Games")
+    print(" 1.  200 INR -------  1 Day (30 Games")
+    print(" 2.  500 INR -------  3 Days(90 Games")
+    print(" 2.  1500 INR ------- 7 Days(210 Games")
     print("*---------*----------*-------------*----------*")
     print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
     while(True):
-        print("My banking name is SUNNY KUMAR")
+        print("My banking name is MUKESH")
         print(f"{red}After You Pay to The UPI ID above You Can Automatically")
         print(f"Activate Hack By Entering The Correct ")
         print(f"{green}(UTR) Or Upi Reference Number") 
         print(f"{neon}To Activate The Hack")
-        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@smsn_knt")
+        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@hackmgk")
         print(f"{neon}*---------*----------*-------------*----------*")
         print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
-        print(f"{yellow}UPI1 : sunny.9132@ybl")
-        print("UPI2 : sunnyk16@fbl")
+        print(f"{yellow}UPI1 : mkeditor778@ybl")
+        print("UPI2 :  mkeditor778@axl")
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
         if(bhai==code or bhai==test):
             clear()
             print(f"{purple}---------------Your play time----------------")
-            print("13th Jan 2021, 02:30 PM- 03:00 PM")
-            print("13th Jan 2021, 05:30 PM- 06:00 PM")
-            print("13th Jan 2021, 08:30 PM- 09:00 PM")
+            print("02:30 PM- 03:00 PM")
+            print("05:30 PM- 06:00 PM")
+            print("08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
-            print(f"{neon}On Telegram {red}@smsn_knt")
+            print(f"{neon}On Telegram {red}@hackmgk")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
@@ -232,15 +236,15 @@ else:
             #rint("To all the weekly members next week, cost will be  ")
             #print(" 4000 INR , because in this week 2 days off " )
             #print("Thank You!! ")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
         elif(bhai==nextday):
             clear()
             banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
-            print("8th-14th Dec 2021, 06:00 PM- 06:30 PM")
-            print("8th-14th Dec 2021, 08:30 PM- 09:00 PM")
+            print(" 02:30 PM- 03:00 PM")
+            print(" 06:00 PM- 06:30 PM")
+            print(" 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
@@ -248,20 +252,20 @@ else:
             period=rava
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
         elif(bhai==night):
             clear()
             print("----------Your play time-----------")
-            print("9th Dec 2021,  08:30 PM- 09:00 PM")
-            print("10th Dec 2021, 08:30 PM- 09:00 PM")
-            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print(" 08:30 PM- 09:00 PM")
+            print(" 08:30 PM- 09:00 PM")
+            print(" 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
             period=410
             hero()
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
         else:
             clear()
             banner='figlet RXCEV2.1|lolcat'
