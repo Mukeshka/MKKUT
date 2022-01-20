@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2022, 1, 30)
+expirydate = datetime.date(2021, 9, 24)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
@@ -30,7 +30,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -81,8 +81,8 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print(f"{red}Contact me on telegram @hakmgk")
-        print(f"{yellow}Enter ",newperiod," Price :")
+        print(f"{red}Contact me on telegram @hackmgk")
+        print(f"{yellow}Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
         chalo()
@@ -120,8 +120,6 @@ def hero():
 
 
 
-
-
 if(expirydate>today):
     now = datetime.datetime.now()
     First = now.replace(hour=13, minute=55, second=0, microsecond=0)
@@ -151,10 +149,10 @@ if(expirydate>today):
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print(" 11:00 AM- 11:30 AM")
-        print(" 02:00 PM- 02:30 PM")
-        print(" 05:00 PM- 05:30 PM")
-        print(" 08:00 PM- 08:30 PM")
+        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
+        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
+        print("23rd Sept 2021, 04:00 PM- 04:30 PM")
+        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @hackmgk ")
@@ -169,8 +167,10 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BART983"
-    test="PBHGY32"
+    code="BHFGV985"
+    code1="NJHBWE23"
+    code2="MKAAHDBD4"
+    test="BHGFV43"
     night="NICMJY13"
     nextday="NNMKJHFD"
     banner='figlet RXCEV2.1|lolcat'
@@ -194,9 +194,9 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@hackmgk for activating")
     print("     Plan Amount --    Total limit " )
-    print(" 1.  200 INR -------  1 Day (30 Games")
-    print(" 2.  500 INR -------  3 Days(90 Games")
-    print(" 2.  1500 INR ------- 7 Days(210 Games")
+    print(" 1.  1000 INR -------  1 Day (30 Games")
+    print(" 2.  2500 INR -------  3 Days(90 Games")
+    print(" 2.  5000 INR ------- 7 Days(210 Games")
     print("*---------*----------*-------------*----------*")
     print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
@@ -215,12 +215,13 @@ else:
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
-        if(bhai==code or bhai==test):
+        if(bhai==code or bhai==test or bhai==code1 or bhai==code2):
             clear()
+            print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("02:00 PM- 02:30 PM")
-            print("05:00 PM- 05:30 PM")
-            print("08:30 PM- 09:00 PM")
+            print("19th Jan 2021, 02:30 PM- 03:00 PM")
+            print("19th Jan 2021, 05:30 PM- 06:00 PM")
+            print("19th Jan 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@hackmgk")
@@ -240,9 +241,9 @@ else:
             banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print(" 11:00 PM- 11:30 PM")
-            print(" 05:00 PM- 05:30 PM")
-            print(" 08:30 PM- 09:00 PM")
+            print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
+            print("8th-14th Dec 2021, 06:00 PM- 06:30 PM")
+            print("8th-14th Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
@@ -254,9 +255,9 @@ else:
         elif(bhai==night):
             clear()
             print("----------Your play time-----------")
-            print(" 08:30 PM- 09:00 PM")
-            print(" 08:30 PM- 09:00 PM")
-            print(" 08:30 PM- 09:00 PM")
+            print("9th Dec 2021,  08:30 PM- 09:00 PM")
+            print("10th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Dec 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
@@ -269,4 +270,3 @@ else:
             banner='figlet RXCEV2.1|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
-     
