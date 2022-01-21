@@ -1,110 +1,204 @@
-import turtle
-import copy
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
-base = []
-turtleID = []
-block_size = 20         # can modify - block size
-width = 900             # can modify - screen width
-no_of_col = int((width - 100)/block_size)
-height = 900            # can modify - screen height
-no_of_row = int((height - 100)/block_size)
-turtle.setup(width, height)
-turtle.tracer(0)
-refresh_period = 200    # can modify - refresh period (in ms)
-stop = True
+from os import system, name
+import itertools
+import threading
+import time
+import sys
+import datetime
+from base64 import b64decode,b64encode
+from datetime import date
 
+expirydate = datetime.date(2022,  1, 24 )
+#expirydate = datetime.date(2021, 12, 30)
+today=date.today()
+green="\033[3;32m"
+neon="\033[3;36m"
+nc="\033[00m"
+red="\033[3;31m"
+purple="\033[3;34m"
+yellow="\033[3;33m"
+voilet="\033[3;35m"
+def hero():
 
-def main_loop():
-    global base, stop
-    if not stop:
-        temp_base = copy.deepcopy(base)
-        for row in range(no_of_row):
-            for col in range(no_of_col):
-                sum = 0
-                for i in range(3):
-                    for j in range(3):
-                        if 0 <= row - 1 + i < no_of_row:
-                            if 0 <= col - 1 + j < no_of_col:
-                                if i == 1 and j == 1:
-                                    continue
-                                else:
-                                    sum = sum + base[row - 1 + i][col - 1 + j]
-                if sum == 3:
-                    temp_base[row][col] = 1
-                elif sum == 2:
-                    pass
-                    temp_base[row][col] = base[row][col]
+    def chalo():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\']) :
+                if done:
+                    break
+                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
+                sys.stdout.flush()
+                time.sleep(0.1)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def chalo1():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\']):
+                if done:
+                    break
+                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.flush()
+                time.sleep(0.1)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def clear():
+        # for windows
+        if name == 'nt':
+            _ = system('cls')
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = system('clear')
+
+    clear()
+    y=1
+    newperiod=period
+    banner='figlet RXCE8.1|lolcat'
+    thisway=[2,6,8,11,12,15,16,18,19,20]
+    thatway=[1,3,4,5,7,9,10,14,13,17]
+    numbers=[0,1,2,3,4,5,6,7,8,9]
+    i=1
+    while(y):
+        clear()
+        system(banner)
+        print(f"{red}Contact me on telegram @hackmgk")
+        print(f"{yellow}Enter ",newperiod," Price :")
+        current=input()
+        current=int(current)
+        chalo()
+        print("\n---------Successfully Connected to the server-----------")
+        chalo1()
+        print("\n---------Successfully got the colour -------------")
+        print('\n')
+        def getSum(n):
+            sum=0
+            for digit in str(n):
+                sum += int(digit)
+            return sum
+        if i in thisway:
+            m=getSum(current)
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
+                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
-                    temp_base[row][col] = 0
-        base = temp_base
-        for row in range(no_of_row):
-            for col in range(no_of_col):
-                if base[row][col] == 0:
-                    turtleID[row][col].fillcolor("")
+                    print(newperiod+1," : 💥🔴RED2🔴💥")
+            else:
+                if current in numbers:
+                    print(newperiod+1," :  💥🔴RED2🔴💥")
                 else:
-                    turtleID[row][col].fillcolor("grey")
-    turtle.ontimer(main_loop, refresh_period)
-    turtle.update()
+                    print(newperiod+1," : 💥🟢GREEN1🟢💥")
+        if i in thatway:
+            m=getSum(current)+1
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🔴RED6🔴💥💥")
+            else:
+                if current in numbers:
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
+            if i in thatway:
+            m=getSum(current)+1
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
+                if current in numbers:
+                    print(newperiod+1,": 💥💥 7 9 3 💥💥")
+                else:
+                    print(newperiod+1,": 💥💥 0 2 💥💥")
+            else:
+                if current in numbers:
+                    print(newperiod+1,": 💥💥 8 6 4 💥💥")
+                else:
+                    print(newperiod+1,": 💥💥 5 1 💥💥")
+                    
+        i=i+1
+        newperiod+=1
+        numbers.append(current)
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
+            y=False
+        if (len(numbers)>15):
+            clear()
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @Hackmgk")
+            print(numbers)
+  
 
 
-def pause_program():
-    global stop
-    stop = not stop
-    print(stop)
-    turtle.update()
 
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
+    FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
+    FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
-def update_state(x, y):
-    pass
-
-
-def clear():
-    global base
-    for row in range(no_of_row):
-        for col in range(no_of_col):
-            base[row][col] = 0
-            turtleID[row][col].fillcolor("")
-    turtle.update()
-
-
-def change_state(x, y):
-    global base
-    row = - 1 - round((y - int(height-100)/2)/block_size - 0.5)
-    col = round((x + int(width-100)/2)/block_size - 0.5)
-    if turtleID[row][col].fillcolor() == "":
-        turtleID[row][col].fillcolor("grey")
-        base[row][col] = 1
+    if (now>First and now<Firstend):
+            period=220
+            hero()
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
+            period=340
+            hero()
+    elif(now>Final and now<Finalend):
+            period=420
+            hero()
+    elif(now>FFinal and now<FFinalend):
+            period=460
+            hero()
     else:
-        turtleID[row][col].fillcolor("")
-        base[row][col] = 0
-    turtle.update()
-
-
-for row in range(no_of_row):
-    base.append([])
-    turtleID.append([])
-    for col in range(no_of_col):
-        base[row].append(0)
-        new_turtle = turtle.Turtle()
-        new_turtle.shape("square")
-        new_turtle.shapesize(block_size/20, block_size/20)
-        new_turtle.fillcolor("")
-        new_turtle.up()
-        new_turtle.goto(-(width-100)/2 + block_size * (col + 0.5), (height-100)/2 - block_size * (row + 0.5))
-        new_turtle.onclick(change_state)
-        turtleID[row].append(new_turtle)
-
-# if not stop:
-#     turtle.onkeypress(main_loop, "space")
-# else:
-#     turtle.onkeypress(stop_program(), "space")
-
-main_loop()
-
-turtle.onkeypress(pause_program, "space")
-turtle.onkeypress(clear, "Delete")
-turtle.listen()
-
-turtle.update()
-
-turtle.done()
+        banner='figlet RXCE8.1|lolcat'
+        print("Hi!! Thanks for buying Life time the hack")
+        print("----------Your play time-----------")
+        print(" 11:00 PM- 11:35 PM")
+        print(" 02:00 PM- 02:35 PM")
+        print(" 05:00 PM- 05:35 PM")
+        print(" 09:00 PM- 09:35 PM")
+        print(" 11:00 PM- 12:35 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @Hackmgk ")
+    
+else:
+    banner='figlet Thank '
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+    print("Your hack has expired--- Please contact")
+    print(" on telegram ----@hackmgk for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 2.     3000 INR -------  30 Days")
+    print("*---------*----------*-------------*----------*")
+    print("Your custom hack can be made request from us.")
+    print( "Msg me on telegram @hackmgk")
