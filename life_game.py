@@ -97,12 +97,12 @@ def hero():
             m=getSum(current)
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:  0,5
+                if current in numbers:  5,0
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
                 else:
                     print(newperiod+1," : 💥🔴RED2🔴💥")
             else:
-                if current in numbers: 2,8
+                if current in numbers: 2,3
                     print(newperiod+1," :  💥🔴RED2🔴💥")
                 else:
                     print(newperiod+1," : 💥🟢GREEN1🟢💥")
@@ -110,26 +110,26 @@ def hero():
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers: 1,5
+                if current in numbers: 5,8
                     print(newperiod+1,": 💥💥🟢GREEN2🟢💥💥")
                 else:
                     print(newperiod+1,": 💥💥🔴RED6🔴💥💥")
             else:
-                if current in numbers: 6,4
-                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
+                if current in numbers: 7,9
+                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
             if i in numbers:
             m=getSum(current)+2
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers: 7,9
+                if current in numbers: 6,4
                     print(newperiod+1,": 💥💥 🔴RED4🔴💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
             else:
-                if current in numbers: 3
-                    print(newperiod+1,": 💥💥 🔴RED4🔴💥💥")
+                if current in numbers: 4,1
+                    print(newperiod+1,": 💥💥🔴RED4🔴💥💥")
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
                     
