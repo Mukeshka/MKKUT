@@ -120,7 +120,7 @@ def hero():
                 else:
                     print(newperiod+1,": 💥💥🟢GREEN4🟢💥💥")
             if i in numbers:
-            m=getSum(current)
+            m=getSum(current)+2
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers: 7,9
