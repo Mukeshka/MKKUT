@@ -76,7 +76,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet MEOK V2.1|lolcat'
+    banner='figlet RXCEV2.1|lolcat'
     numbers=[]
     while(y):
         clear()
@@ -144,7 +144,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet MEOK V2.1'
+        banner='figlet RXCE V2.1'
         system(banner)
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
@@ -167,13 +167,13 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="NDCDSXFV55"
-    code1="NDERFG23"
-    code2="AWAWSDS56"
-    test="BVCFT43"
-    night="NSMNJUI13"
-    nextday="NDFFD"
-    banner='figlet MEOK V2.1|lolcat'
+    code="MSDFX55"
+    code1="BD23"
+    code2="ASXS56"
+    test="SDF43"
+    night="NX13"
+    nextday="NSD"
+    banner='figlet RXCEV2.1|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -229,7 +229,7 @@ else:
             time.sleep(20)
             period=rava
             hero()
-            #print("Today Server is off MEOK try tomorrow ")
+            #print("Today Server is off RXCE try tomorrow ")
             #rint(" of town, Tomorrow It will work as usual.")
             #print(" Thank You!!")
             #rint("To all the weekly members next week, cost will be  ")
@@ -238,7 +238,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
         elif(bhai==nextday):
             clear()
-            banner='figlet MEOK V2.1|lolcat'
+            banner='figlet RXCE V2.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
             print("19th March 2022, 02:30 PM- 03:00 PM")
@@ -267,6 +267,6 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
         else:
             clear()
-            banner='figlet MEOK V2.1|lolcat'
+            banner='figlet RXCE V2.1|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
