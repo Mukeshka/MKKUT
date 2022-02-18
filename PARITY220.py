@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022,  3, 18)
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2022, 3, 18)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
@@ -71,7 +71,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet MEOK 8.1|lolcat'
+    banner='figlet RXCE 8.1|lolcat'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
@@ -165,7 +165,7 @@ if(expirydate>today):
             period=460
             hero()
     else:
-        banner='figlet MEOK 8.1|lolcat'
+        banner='figlet RXCE 8.1|lolcat'
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
         print(" 11:00 PM- 11:35 PM")
