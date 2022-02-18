@@ -115,44 +115,49 @@ def hero():
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
-            #print(numbers)
+            print(numbers)
   
 
 
 
 if(expirydate>today):
-    now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
-    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+   now = datetime.datetime.now()
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
+    FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
+    FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
 
-    if (now>Third and now<Thirdend):
-            period=320
+    if (now>First and now<Firstend):
+            period=220
             hero()
-    elif(now):
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
             period=340
             hero()
-    elif(False):
-            period=340
+    elif(now>Final and now<Finalend):
+            period=420
             hero()
-    elif(False):
-            period=360
+    elif(now>FFinal and now<FFinalend):
+            period=460
             hero()
     else:
         banner='figlet RXCE V2.1'
         system(banner)
-        #print(f"{red}"Hi!! Thanks for buying the hack")
+        print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        #print("18th March 2022, 11:00 AM- 11:30 AM")
-        #print("18th March 2022, 02:00 PM- 02:30 PM")
+        print("18th March 2022, 11:00 AM- 11:30 AM")
+        print("18th March 2022, 02:00 PM- 02:30 PM")
         print("18th March 2022, 04:00 PM- 04:30 PM")
-        #print("18th March 2022, 08:00 PM- 08:30 PM")
+        print("18th March 2022, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @HACKMGK ")
@@ -161,10 +166,10 @@ if(expirydate>today):
 
 else:
     def clear():
-        # for windows
+         for windows
         if name == 'nt':
             _ = system('cls')
-        # for mac and linux(here, os.name is 'posix')
+        for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
     code="MSDFX55"
@@ -229,12 +234,12 @@ else:
             time.sleep(20)
             period=rava
             hero()
-            #print("Today Server is off RXCE try tomorrow ")
-            #rint(" of town, Tomorrow It will work as usual.")
-            #print(" Thank You!!")
-            #rint("To all the weekly members next week, cost will be  ")
-            #print(" 4000 INR , because in this week 2 days off " )
-            #print("Thank You!! ")
+            print("Today Server is off RXCE try tomorrow ")
+            rint(" of town, Tomorrow It will work as usual.")
+            print(" Thank You!!")
+            rint("To all the weekly members next week, cost will be  ")
+            print(" 4000 INR , because in this week 2 days off " )
+            print("Thank You!! ")
             sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
         elif(bhai==nextday):
             clear()
@@ -250,7 +255,7 @@ else:
             time.sleep(20)
             period=rava
             hero()
-            #period("Sorry too many people(>20) using hack in same time ")
+            period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @HACKMGK")
         elif(bhai==night):
             clear()
