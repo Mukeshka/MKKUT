@@ -128,10 +128,8 @@ if(expirydate>today):
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=21, minute=35, second=0, microsecond= 0)
-    FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
-    FFinalend = now.replace(hour=23, minute=35, second=0, microsecond= 0)
+    Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (now>First and now<Firstend):
             period=220
