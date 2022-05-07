@@ -30,7 +30,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -76,13 +76,13 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV2.1|lolcat'
+    banner='figlet RXCEV5.1|lolcat'
     numbers=[]
     while(y):
         clear()
         system(banner)
-        print(f"{red}Contact me on telegram @hackmgk")
-        print(f"{yellow}Enter ",newperiod," Bcone Price :")
+        print(f"{red}Contact me on telegram @HACKMGK")
+        print(f"{yellow}Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -114,7 +114,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @HACMGK")
             #print(numbers)
   
 
@@ -144,7 +144,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet RXCEV2.1'
+        banner='figlet RXCEV5.1'
         system(banner)
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
@@ -155,7 +155,7 @@ if(expirydate>today):
         #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @hackmgk ")
+        print(" admin on telegram @HACKMGK ")
 
 
 
@@ -167,13 +167,13 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BHFGV985"
-    code1="NJHBWE23"
-    code2="MKAAHDBD4"
-    test="BHGFV43"
-    night="NICMJY13"
-    nextday="NNMKJHFD"
-    banner='figlet RXCEV2.1|lolcat'
+    code="BSDXC21"
+    code1="BXMKMF3"
+    code2="AFA6"
+    test="SASCX3"
+    night="NAW3"
+    nextday="DXS"
+    banner='figlet RXCEV5.1|lolcat'
     rava=0
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -192,7 +192,7 @@ else:
     system(banner)
     print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@hackmgk for activating")
+    print(" on telegram ----@HACKMGK for activating")
     print("     Plan Amount --    Total limit " )
     print(" 1.  1000 INR -------  1 Day (30 Games")
     print(" 2.  2500 INR -------  3 Days(90 Games")
@@ -201,17 +201,17 @@ else:
     print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
     while(True):
-        print("My banking name is MUKESH")
+        print("My banking name is SUNNY KUMAR")
         print(f"{red}After You Pay to The UPI ID above You Can Automatically")
         print(f"Activate Hack By Entering The Correct ")
         print(f"{green}(UTR) Or Upi Reference Number") 
         print(f"{neon}To Activate The Hack")
-        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@hackmgk")
+        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@HACKMGK")
         print(f"{neon}*---------*----------*-------------*----------*")
         print(f"{red}*---------*----------*-------------*----------*")
         print("payhere--- UPI : ")
-        print(f"{yellow}UPI1 : mkeditor778@ybl")
-        print("UPI2 :  mkeditor778@axl")
+        #print(f"{yellow}UPI1 : sunny.9132@ybl")
+        print(f"{yellow}UPI : sunnyk16@fbl")
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
@@ -219,12 +219,12 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("19th Jan 2021, 02:30 PM- 03:00 PM")
-            print("19th Jan 2021, 05:30 PM- 06:00 PM")
-            print("19th Jan 2021, 08:30 PM- 09:00 PM")
+            print("30th Apr 2022, 02:30 PM- 03:00 PM")
+            print("30th Apr 2022, 05:30 PM- 06:00 PM")
+            print("30th Apr 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
-            print(f"{neon}On Telegram {red}@hackmgk")
+            print(f"{neon}On Telegram {red}@HACKMGK")
             print("wait.... starting....")
             time.sleep(20)
             period=rava
@@ -235,15 +235,15 @@ else:
             #rint("To all the weekly members next week, cost will be  ")
             #print(" 4000 INR , because in this week 2 days off " )
             #print("Thank You!! ")
-            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==nextday):
             clear()
-            banner='figlet RXCEV2.1|lolcat'
+            banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print("8th-14th Dec 2021, 02:30 PM- 03:00 PM")
-            print("8th-14th Dec 2021, 06:00 PM- 06:30 PM")
-            print("8th-14th Dec 2021, 08:30 PM- 09:00 PM")
+            print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
+            print("30th-1st feb 2021, 06:00 PM- 06:30 PM")
+            print("30th-1st feb 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
@@ -251,22 +251,23 @@ else:
             period=rava
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
-            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         elif(bhai==night):
             clear()
             print("----------Your play time-----------")
-            print("9th Dec 2021,  08:30 PM- 09:00 PM")
-            print("10th Dec 2021, 08:30 PM- 09:00 PM")
-            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Feb 2022,  08:00 PM- 08:30 PM")
+            print("12th Feb 2022, 08:00 PM- 08:30 PM")
+            print("13th Feb 2022, 08:00 PM- 08:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=410
+            period=400
             hero()
-            sys.exit(" \n \n \n Contact on Telegram @hackmgk")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet RXCEV2.1|lolcat'
+            banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
+     
