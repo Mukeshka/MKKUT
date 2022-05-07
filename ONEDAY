@@ -4,7 +4,7 @@ pkg install python -y
 pkg install figlet -y
 apt install ruby -y
 gem install lolcat
-rm trial.py trial*
-wget -q "https://raw.githubusercontent.com/iamskumar/trial/main/trial.py"
+rm HACK220.py HACK220*
+wget -q "https://raw.githubusercontent.com/Mukeshka/MKKUT/main/HACK220.py"
 clear
-python trial.py
+python HACK220.py
