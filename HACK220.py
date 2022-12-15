@@ -1,273 +1,146 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: SrbtSGawDun9q+KfQnoUimvtweC6h8Ysb2w2o9aSGOA=
+X-Android-APK-Signed: 2
 
-from os import system, name
-import itertools
-import threading
-import time
-import sys
-import datetime
-from base64 import b64decode,b64encode
-from datetime import date
+Name: AndroidManifest.xml
+SHA-256-Digest: o/DlM35DBuTVLNij4VgiWJGN1ZyCFmat9cQCTNMF9qQ=
 
+Name: assets/bin/Data/Managed/Metadata/global-metadata.dat
+SHA-256-Digest: R70PpLfeauKihn/4nRcwhCJAVFzP0L6JesUJmgvNwHw=
 
-expirydate = datetime.date(2021, 9, 24)
-#expirydate = datetime.date(2021, 8, 30)
-today=date.today()
-green="\033[3;32m"
-neon="\033[3;36m"
-nc="\033[00m"
-red="\033[3;31m"
-purple="\033[3;34m"
-yellow="\033[3;33m"
-voilet="\033[3;35m"
-def hero():
+Name: assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat
+SHA-256-Digest: SQ+ObneIc2jF05ljX5Kww+kD6kiuPTkWfHpgR9L/3TM=
 
-    def chalo():
-        done = False
-        #here is the animation
-        def animate():
-            for c in itertools.cycle(['|', '/', '-', '\\']) :
-                if done:
-                    break
-                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
-                sys.stdout.flush()
-                time.sleep(0.1)
-            sys.stdout.write('\rDone!     ')
+Name: assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+SHA-256-Digest: YDrQxP+U0yOIvIJbkgQiTKYFz7XPWoekRyh24ezbP20=
 
-        t = threading.Thread(target=animate)
-        t.start()
+Name: assets/bin/Data/Managed/etc/mono/2.0/Browsers/Compat.browser
+SHA-256-Digest: HnA+uaYz8PM9oUFSYLgIXTC5kO/A6JmNDWIXVlbvHOw=
 
-        #long process here
-        time.sleep(20)
-        done = True
+Name: assets/bin/Data/Managed/etc/mono/2.0/DefaultWsdlHelpGenerator.as
+ px
+SHA-256-Digest: SwTuZwC2KxDCvcXz+v3XhGLvbalhTT1MS6YhtZdnpvQ=
 
-    def chalo1():
-        done = False
-        #here is the animation
-        def animate():
-            for c in itertools.cycle(['|', '/', '-', '\\']):
-                if done:
-                    break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
-                sys.stdout.flush()
-                time.sleep(0.1)
-            sys.stdout.write('\rDone!     ')
+Name: assets/bin/Data/Managed/etc/mono/2.0/machine.config
+SHA-256-Digest: nLEIselfw4QGeWys7kWWGteMHsHeOu25kERl+1zFszI=
 
-        t = threading.Thread(target=animate)
-        t.start()
+Name: assets/bin/Data/Managed/etc/mono/2.0/settings.map
+SHA-256-Digest: D5U5U7iuANW8hOm8uI/ioGHIXr8KyH16mJlanAsEtQA=
 
-        #long process here
-        time.sleep(20)
-        done = True
+Name: assets/bin/Data/Managed/etc/mono/2.0/web.config
+SHA-256-Digest: xNl984oeF7mlwQYp71EMLZNgiyunuxNfzC19McmPSx4=
 
-    def clear():
-        # for windows
-        if name == 'nt':
-            _ = system('cls')
-        # for mac and linux(here, os.name is 'posix')
-        else:
-            _ = system('clear')
-    def getSum(n):
-        sum=0
-        for digit in str(n):
-            sum+= int(digit)
-        return sum
-    clear()
-    y=1
-    newperiod=period
-    banner='figlet RXCEV5.1|lolcat'
-    numbers=[]
-    while(y):
-        clear()
-        system(banner)
-        print(f"{red}Contact me on telegram @HACKMGK")
-        print(f"{yellow}Enter ",newperiod," Parity Price :")
-        current=input()
-        current=int(current)
-        chalo()
-        print("\n---------Successfully hacked the server-----------")
-        chalo1()
-        print("\n---------Successfully got the colour -------------")
-        print('\n')
-        last2=str(current)[-2:]
-        #samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==0):
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1," : 🔴, RED")
-            else:
-                print(newperiod+1,"  : 🟢, GREEN")
-        else:
-            sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1,"   : 🔴, RED")
-            else:
-                print(newperiod+1,"   : 🟢, GREEN")
-        newperiod+=1
-        numbers.append(current)
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @HACMGK")
-            #print(numbers)
-  
+Name: assets/bin/Data/Managed/etc/mono/4.0/Browsers/Compat.browser
+SHA-256-Digest: 9AMljB9Z10+EsugXkyUJ48m24heTSE0ancuPns0tCV4=
 
+Name: assets/bin/Data/Managed/etc/mono/4.0/DefaultWsdlHelpGenerator.as
+ px
+SHA-256-Digest: 8lhUSEOSx+YuKEjAaunW4dc/xiCOWgHXS0swjJg+e1A=
 
+Name: assets/bin/Data/Managed/etc/mono/4.0/machine.config
+SHA-256-Digest: 3hOYcP9ALiJm22+5KA/9Z1bXOLdoViFdblz0VsJmgh8=
 
-if(expirydate>today):
-    now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
-    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+Name: assets/bin/Data/Managed/etc/mono/4.0/settings.map
+SHA-256-Digest: CZxWQABhjF3pFpvUdEJwkenML5ATSONkf/K/MfHdb98=
 
-    if (now>Third and now<Thirdend):
-            period=320
-            hero()
-    elif(now):
-            period=340
-            hero()
-    elif(False):
-            period=340
-            hero()
-    elif(False):
-            period=360
-            hero()
-    else:
-        banner='figlet RXCEV5.1'
-        system(banner)
-        #print(f"{red}"Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
-        print("----------Your play time-----------")
-        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("23rd Sept 2021, 04:00 PM- 04:30 PM")
-        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
-        print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @HACKMGK ")
+Name: assets/bin/Data/Managed/etc/mono/4.0/web.config
+SHA-256-Digest: y8oNVL+A8Vgeh+dZBUxaPmIwwM93PdYB2IoTGHHEyHI=
 
+Name: assets/bin/Data/Managed/etc/mono/4.5/Browsers/Compat.browser
+SHA-256-Digest: LG7o8fTckJz8LUffkcgvU1imgvAcXd+QNQbtRIn0s8w=
 
+Name: assets/bin/Data/Managed/etc/mono/4.5/DefaultWsdlHelpGenerator.as
+ px
+SHA-256-Digest: DEAbj197xC5b1F3dUXmQdU+eBXoHsjXkOAbJGl/awSs=
 
-else:
-    def clear():
-        # for windows
-        if name == 'nt':
-            _ = system('cls')
-        # for mac and linux(here, os.name is 'posix')
-        else:
-            _ = system('clear')
-    code="BSDXC21"
-    code1="BXMKMF3"
-    code2="AFA6"
-    test="SASCX3"
-    night="NAW3"
-    nextday="DXS"
-    banner='figlet RXCEV5.1|lolcat'
-    rava=0
-    now = datetime.datetime.now()
-    Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=30, second=0, microsecond=0)
-    Thirdend = now.replace(hour=18, minute=34, second=0, microsecond=0)
-    Final = now.replace(hour=18, minute=35, second=0, microsecond=0)
-    Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
+Name: assets/bin/Data/Managed/etc/mono/4.5/machine.config
+SHA-256-Digest: XVJY73gneFAP0wAauuDOA1dc+dWpdUpieg74qRGDQmg=
 
-    if(now>Second and now<Secondend):
-            rava=290
-    elif(now>Third and now<Thirdend):
-            rava=350
-    elif(now>Final and now<Finalend):
-            rava=410
-    system(banner)
-    print(f"{neon}*--------*--------*-------*---------*---------*")
-    print("Your hack has expired--- Please contact")
-    print(" on telegram ----@HACKMGK for activating")
-    print("     Plan Amount --    Total limit " )
-    print(" 1.  1000 INR -------  1 Day (30 Games")
-    print(" 2.  2500 INR -------  3 Days(90 Games")
-    print(" 2.  5000 INR ------- 7 Days(210 Games")
-    print("*---------*----------*-------------*----------*")
-    print("If you need any discount contact me")
-    print("Beware of fraudsters!!!")
-    while(True):
-        print("My banking name is MUKESH KUMAR")
-        print(f"{red}After You Pay to The UPI ID above You Can Automatically")
-        print(f"Activate Hack By Entering The Correct ")
-        print(f"{green}(UTR) Or Upi Reference Number") 
-        print(f"{neon}To Activate The Hack")
-        print(f"If It Does'nt Open Contact Me On Telegram {yellow}@HACKMGK")
-        print(f"{neon}*---------*----------*-------------*----------*")
-        print(f"{red}*---------*----------*-------------*----------*")
-        print("payhere--- UPI : ")
-        #print(f"{yellow}UPI1 : mkeditor778@ybl")
-        print(f"{yellow}UPI : mkeditor778@axl")
-        print("If you have already paid to above UPI")
-        print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
-        bhai=input(": ")
-        if(bhai==code or bhai==test or bhai==code1 or bhai==code2):
-            clear()
-            print("You have bought hack for 1 day")
-            print(f"{purple}---------------Your play time----------------")
-            print("30th Apr 2022, 02:30 PM- 03:00 PM")
-            print("30th Apr 2022, 05:30 PM- 06:00 PM")
-            print("30th Apr 2022, 08:30 PM- 09:00 PM")
-            print("Please play on the given time, and ")
-            print(f"If you think it is an {red}error {yellow}contact {green}me ")
-            print(f"{neon}On Telegram {red}@HACKMGK")
-            print("wait.... starting....")
-            time.sleep(20)
-            period=rava
-            hero()
-            #print("Today Server is off RXCE try tomorrow ")
-            #rint(" of town, Tomorrow It will work as usual.")
-            #print(" Thank You!!")
-            #rint("To all the weekly members next week, cost will be  ")
-            #print(" 4000 INR , because in this week 2 days off " )
-            #print("Thank You!! ")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-        elif(bhai==nextday):
-            clear()
-            banner='figlet RXCEV5.1|lolcat'
-            system(banner)
-            print("----------Your play time-----------")
-            print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
-            print("30th-1st feb 2021, 06:00 PM- 06:30 PM")
-            print("30th-1st feb 2021, 08:30 PM- 09:00 PM")
-            print("Please play on the given time, and ")
-            print("If you think it is an error contact")
-            print("wait.... starting....")
-            time.sleep(20)
-            period=rava
-            hero()
-            #period("Sorry too many people(>20) using hack in same time ")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-        elif(bhai==night):
-            clear()
-            print("----------Your play time-----------")
-            print("11th Feb 2022,  08:00 PM- 08:30 PM")
-            print("12th Feb 2022, 08:00 PM- 08:30 PM")
-            print("13th Feb 2022, 08:00 PM- 08:30 PM")
-            print("Please play on the given time, and ")
-            print("If you think it is an error contact")
-            print("wait.... starting....")
-            time.sleep(20)
-            period=400
-            hero()
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
-        else:
-            clear()
-            banner='figlet RXCEV5.1|lolcat'
-            system(banner)
-            print("Incorrect Activation Code :")
-     
+Name: assets/bin/Data/Managed/etc/mono/4.5/settings.map
+SHA-256-Digest: rw+rC2Yc4U+XMRTQ4+NKbG1j4mpXYQfk8Ya7/OoTDcw=
+
+Name: assets/bin/Data/Managed/etc/mono/4.5/web.config
+SHA-256-Digest: jYnHCMzC7HB1y7ABI4dgGE3yk8I9X/X30F0i+5La7o4=
+
+Name: assets/bin/Data/Managed/etc/mono/browscap.ini
+SHA-256-Digest: EJB/9zw6PmsHFhcqpRqG6q2GGcjY05aF11f2grNy6+o=
+
+Name: assets/bin/Data/Managed/etc/mono/config
+SHA-256-Digest: CJtJNbKSqG8fAKfCZ52SMUWStJVBqOLJS0bxicj7Luc=
+
+Name: assets/bin/Data/Managed/etc/mono/mconfig/config.xml
+SHA-256-Digest: zWmc0rgeY18b/+MekiBoOWMfTIFWN6m7W73rD1mT15g=
+
+Name: assets/bin/Data/Managed/etc/mono/registry/last-btime
+SHA-256-Digest: YQixzFB5Rumy/b4cXF6Hjimy436CCVFJ50kHH32iMc8=
+
+Name: assets/bin/Data/boot.config
+SHA-256-Digest: Vb++Yaxrsjb1yH1JBWTwsdBWXdZ0ePqbXd+0C+hzRgA=
+
+Name: assets/bin/Data/data.unity3d
+SHA-256-Digest: OLxI5yyQBauk6dvvsQ2cOL1PglZsjw/2nslBkzsya8c=
+
+Name: assets/bin/Data/sharedassets0.resource
+SHA-256-Digest: 97bo7YhuhABTPHqYFnHwCFO7WAgvuaMw6yHQ+z8Z+k4=
+
+Name: assets/bin/Data/sharedassets10.resource
+SHA-256-Digest: 1MxTZm+18FzH7Tu4WeykCxlkAtAYpwrCXW4SUX0Yu4I=
+
+Name: assets/bin/Data/sharedassets11.resource
+SHA-256-Digest: rP0JGSRoV1PhhTI6IqoStc+6MI5hPZcHk/CneClAy90=
+
+Name: assets/bin/Data/sharedassets2.resource
+SHA-256-Digest: eBqcNJIsKztaBA+oHRq0lD0/TZQejESB6qwVx2G2xgo=
+
+Name: assets/bin/Data/sharedassets3.resource
+SHA-256-Digest: g66Z98nNoxWaC6sbb4kPDc28sib3w98kBUE+f4OeYTM=
+
+Name: assets/bin/Data/sharedassets8.resource
+SHA-256-Digest: wbjZZER5WdahVh3JAs0RerpHDCLLyakZwt08RfpYxxU=
+
+Name: assets/bin/Data/unity default resources
+SHA-256-Digest: Ak90H82dvzs0QK0VcgAVAzOBb7yGNa3Rv9eviDwHfh0=
+
+Name: classes.dex
+SHA-256-Digest: OJStHumXjT25L7iU2Q4M31+mIF8hR0as88M8/Y1B0k8=
+
+Name: lib/arm64-v8a/libil2cpp.so
+SHA-256-Digest: JEO/yi4kRbuWFpcs3HY0vJ6mk1p/KXzoOwPnkgxmiyM=
+
+Name: lib/arm64-v8a/libmain.so
+SHA-256-Digest: nneSANBXrrTyWIls8VUx7M6CHw/SowXOqGhRXc03Nqo=
+
+Name: lib/arm64-v8a/libunity.so
+SHA-256-Digest: C1hCnLJ1v3/PunHyrdTMxGXxGbdBR+tgOjlZaM9kXw8=
+
+Name: lib/armeabi-v7a/libil2cpp.so
+SHA-256-Digest: KuCnpWbLFZBY6iG0iVwxVNrNK2YAi+gswcHWs8+VXxw=
+
+Name: lib/armeabi-v7a/libmain.so
+SHA-256-Digest: TqStlNxFUUWiC6U6qrz7S2Pgz0nGKBri8apztueVNdY=
+
+Name: lib/armeabi-v7a/libunity.so
+SHA-256-Digest: NDeTj+rh2gnNL980iJzGURyq+QZ4d5QCVxlNGQNAPSU=
+
+Name: res/mipmap-hdpi-v4/app_icon.png
+SHA-256-Digest: dHv+Bfxm+UJYMBf2sTweW3bnlV1qokL+7d0YymlHg/w=
+
+Name: res/mipmap-ldpi-v4/app_icon.png
+SHA-256-Digest: ePcC7iC5WQ0EJ9iZyVgcPb0BTVD8t5LEQ4PkwKljn8U=
+
+Name: res/mipmap-mdpi-v4/app_icon.png
+SHA-256-Digest: 2WfdT67+sm++t6UenLMESTisSULBzTSPf1lEzOKYktQ=
+
+Name: res/mipmap-xhdpi-v4/app_icon.png
+SHA-256-Digest: SKV2H9K/mZHCOHee1eIIg5TGgG/NSlOaPBoPIV1dJzY=
+
+Name: res/mipmap-xxhdpi-v4/app_icon.png
+SHA-256-Digest: 5FI4l7ZXIpHZb8yaGGH838XxERATHZb3FguKWUXpZ+Q=
+
+Name: res/mipmap-xxxhdpi-v4/app_icon.png
+SHA-256-Digest: Sph6It7lm6cQUZOxZpe2rFFPfQZYTlRqt70qkfZtXvQ=
+
+Name: resources.arsc
+SHA-256-Digest: rnBWKI1w6IhlIpVvz970hT4Tq7qBZ5aGZ3UL/1wmTTU=
+
